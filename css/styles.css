@@ -3,6 +3,10 @@ body {
     font-size: 14px;
 }
 
+th {
+    min-width: 65px;
+}
+
 td:first-child { 
     text-align: left;
     font-weight: bold;
