@@ -7,6 +7,10 @@ td:first-child {
     font-weight: bold;
 }
 
+.fas {
+    font-size: 20px;
+}
+
 .fa-times-circle {
     color: red;
 }
@@ -15,4 +19,7 @@ td:first-child {
 }
 .fa-check-circle {
     color: #34c74e;
+}
+.fa-question-circle {
+    font-size: 12px;
 }
