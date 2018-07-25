@@ -1,3 +1,12 @@
+body {
+    text-align: center;
+}
+
+tr:first-child { 
+    text-align: left;
+    font-weight: bold;
+}
+
 .fa-times-circle {
     color: red;
 }
