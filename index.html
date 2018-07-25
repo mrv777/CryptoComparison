@@ -251,12 +251,12 @@
           <tr>
             <td>Wallets</td>
             <td>
-              <i class="fas fa-times-circle"></i> Windows<br />
-              <i class="fas fa-times-circle"></i> MacOS<br />
-              <i class="fas fa-times-circle"></i> Linux<br />
-              <i class="fas fa-times-circle"></i> iOS<br />
-              <i class="fas fa-times-circle"></i> Android<br />
-              <i class="fas fa-times-circle"></i> Web
+              <i class="fas fa-times-circle"></i> <i class="fab fa-windows" data-toggle="tooltip" data-placement="top" title="Windows"></i><br />
+              <i class="fas fa-times-circle"></i> <i class="fab fa-apple" data-toggle="tooltip" data-placement="top" title="MacOS"></i><br />
+              <i class="fas fa-times-circle"></i> <i class="fab fa-linux" data-toggle="tooltip" data-placement="top" title="Linux"></i><br />
+              <i class="fas fa-times-circle"></i> <i class="fab fa-app-store-ios" data-toggle="tooltip" data-placement="top" title="iOS"></i><br />
+              <i class="fas fa-times-circle"></i> <i class="fab fa-android" data-toggle="tooltip" data-placement="top" title="Android"></i><br />
+              <i class="fas fa-times-circle"></i> <i class="fas fa-globe" data-toggle="tooltip" data-placement="top" title="Web"></i>
             </td>
             <td>
               <i class="fas fa-times-circle"></i> Windows<br />
@@ -363,5 +363,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
 </body>
 </html>
