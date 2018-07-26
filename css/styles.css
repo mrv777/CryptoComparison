@@ -28,3 +28,9 @@ td:first-child {
 .fa-question-circle {
     font-size: 12px;
 }
+
+@media(max-width: 767px){
+    body {
+        font-size: 12px;
+    }
+}
