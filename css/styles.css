@@ -12,7 +12,7 @@ td:first-child {
     font-weight: bold;
 }
 
-.fas {
+.fa-times-circle, .fa-cogs, .fa-check-circle {
     font-size: 20px;
 }
 
