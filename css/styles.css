@@ -39,3 +39,9 @@ td:first-child {
         font-size: 12px;
     }
 }
+
+@media(min-width: 1260px){
+    .container {
+        max-width: 1230px;
+    }
+}
